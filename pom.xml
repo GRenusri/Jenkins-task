@@ -15,8 +15,8 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/3.8.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/3.8.6 http://maven.apache.org/xsd/maven-3.8.6.xsd">
+  <modelVersion>3.8.6</modelVersion>
 
   <parent>
     <groupId>org.apache.maven</groupId>
@@ -56,7 +56,6 @@
     <currentStableVersion>3.8.6</currentStableVersion>
     <currentStableReleaseDate>2021-06-06</currentStableReleaseDate>
     <currentStableVersionDetails>84538c9988a25aec085021c365c560670ad80f63</currentStableVersionDetails>
-    <current4xVersion>4.0.0-alpha-2</current4xVersion>
     <current38xVersion>3.8.6</current38xVersion>
     <current36xVersion>3.6.3</current36xVersion>
     <current35xVersion>3.5.4</current35xVersion>
@@ -108,7 +107,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>4.0.0-M3</version>
+          <version>3.8.6</version>
           <configuration>
             <siteDirectory>${siteDirectory}</siteDirectory>
             <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
